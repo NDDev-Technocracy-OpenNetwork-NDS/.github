@@ -13,3 +13,5 @@ project](https://github.com/NDDev-Technocracy-OpenNetwork-NDS/nddev-device-sync)
 for the actual components, development entrypoints and project documentation.
 
 [Visit NDDev](https://nddev.ai/opennetwork)
+
+[Contact](mailto:danil@nddev.ai)
