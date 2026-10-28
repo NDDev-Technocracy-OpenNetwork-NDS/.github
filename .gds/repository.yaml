@@ -1,0 +1,49 @@
+schema_version: 1
+repository:
+  id: repo_01M628A86T46CQF40A4Y0SEFVD
+  display_name: .github
+  roles:
+  - project
+  - module
+  lifecycle: active
+provider:
+  type: github
+  installation: installation:github-nddev-technocracy-opennetwork-nds
+  repository_id: 1429387130
+  owner: NDDev-Technocracy-OpenNetwork-NDS
+  name: .github
+classification:
+  portfolios:
+  - portfolio:nddev-technocracy-opennetwork-nds
+  visibility_contract: public
+  data_classification: public
+product:
+  purpose: Public organization introduction and OpenNetwork branding.
+policy:
+  profiles:
+  - repository-default
+  - opennetwork-default
+  rollout_ring: standard
+git:
+  default_branch: main
+  integration: pull-request
+  branch_model: task-branches
+  handoff_pr: preferred
+  cleanup: merged-only
+agent:
+  context_profile: project-default
+  generated_agents: false
+  serena:
+    enabled: false
+    provenance_required: false
+release:
+  mode: none
+module:
+  contract: public
+  consumption:
+  - git-submodule
+  compatibility: commit-contract
+  pin_policy: default-branch-commit
+  publication:
+    github_release: disabled
+  development: embedded
